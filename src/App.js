@@ -27,7 +27,7 @@ function App() {
       guardarRestante(presupestoRestante); 
     }
     
-  },[gasto]);
+  },[gasto, creargasto, gastos, restante]);
 
 
   return (
